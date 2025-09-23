@@ -51,3 +51,32 @@ let SomeNumber = 33;
 let stringNumber = String(SomeNumber);
 console.log(typeof stringNumber);
 console.log(stringNumber);
+
+
+// **************** operation ********
+let value1 = 3
+let negValue = -value1;
+console.log(negValue);
+
+let str1 = "hello";
+let str2 = " tahseen"
+let str3 = str1+str2
+console.log(str3);
+
+console.log("1"+2); // 12
+console.log(1+"2"); // 12
+console.log("1"+2+2); //  prefer which is your first data type if it is stirng it behave all like string
+console.log(1+2+"2"); // 32
+
+// wrong method to write 
+console.log(+true);// 1
+console.log(+"");  // 0
+
+let num1 = 100;
+++num1;
+console.log(num1);
+
+
+
+
+
