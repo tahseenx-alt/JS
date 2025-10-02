@@ -1,4 +1,4 @@
-s 
+ 
 const marvel_hero = ["Thor","Ironman", "Captain America"]
 const dc_hero = ["Superman", "Flash", "Batman"]
 marvel_hero.push(dc_hero) // it create a array inside a array which contain all dc hero
